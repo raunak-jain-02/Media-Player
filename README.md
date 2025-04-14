@@ -1,2 +1,32 @@
-# Media-Player
-This is a Spotify-style music player built using customtkinter and pygame. It allows users to load .mp3 and .wav files, and provides controls like play/pause, stop, next/previous track, and volume adjustment—all in a sleek dark-themed GUI.
+cat > README.md << 'EOF'
+# Python Spotify 🎵
+
+A dark-themed, Spotify-style desktop music player built with `customtkinter` and `pygame`.
+
+## 💡 Features
+- Dark mode GUI using CustomTkinter
+- Load multiple `.mp3` / `.wav` files
+- Play, Pause, Stop
+- Next / Previous track navigation
+- Volume control via slider
+- Displays current song name
+
+## 🖥️ UI Preview
+Dark-themed window with buttons and a volume slider, similar in feel to Spotify.
+
+## 📝 Notes
+You can load songs via file picker.
+
+Only .mp3 and .wav formats are supported.
+
+Ensure you have audio files locally.
+
+## 📧 Support
+For suggestions or help, contact: raunakjain1002@gmail.com
+
+## 🚀 How to Run
+
+```bash
+pip install pygame customtkinter
+python player.py
+
