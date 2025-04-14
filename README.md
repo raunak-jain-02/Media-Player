@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # Python Spotify 🎵
 
 A dark-themed, Spotify-style desktop music player built with `customtkinter` and `pygame`.
